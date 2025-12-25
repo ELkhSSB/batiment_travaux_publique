@@ -1,0 +1,76 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-us, .our-history, .our-team, .certifications {
+    margin-bottom: 40px;
+}
+
+.about-us h1, .our-history h2, .our-team h2, .certifications h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-us p, .our-history p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.team-member {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.team-member p {
+    margin: 0;
+    font-size: 1em;
+    color: #777;
+}
+
+.certifications {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.certification {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.certification img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.certification p {
+    font-size: 1em;
+    color: #333;
+}

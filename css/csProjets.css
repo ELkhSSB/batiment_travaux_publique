@@ -1,0 +1,27 @@
+ .projects{
+    margin: 40px 0;
+    text-align: center;
+}
+
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-item{
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    margin: 20px;
+}
+
+.project-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+ .project-item h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
